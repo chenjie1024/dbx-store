@@ -17,10 +17,10 @@
     "host.storage",
     "host.workbench"
   ],
-  "source": "https://github.com/mikodream/ratel-dbx",
+  "source": "https://github.com/mikodream/ratel-dbx/tree/v0.1.4",
   "homepage": "https://github.com/mikodream/ratel-dbx",
   "license": "MIT",
-  "releaseNotes": "首个公开发布版本：声明 command + menus 贡献点，安装后可从侧边栏、工具栏和命令面板直接打开摸鱼台。",
+  "releaseNotes": "恢复 publisher 为 dbx-ratel，移除无效的 connection-provider 贡献点；保留工作台手动连接、主题与宿主同步，新增官方/自定义服务器选择，默认昵称改为 dbx。",
   "localizations": {
     "zh-CN": {
       "name": "Ratel 摸鱼台",
