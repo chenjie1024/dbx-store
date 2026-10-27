@@ -24,7 +24,7 @@
   "source": "https://github.com/jinpy666/dbx-plugin-ssh",
   "homepage": "https://github.com/jinpy666/dbx-plugin-ssh",
   "license": "MIT",
-  "releaseNotes": "First official store release: interactive terminal with PTY, SFTP file transfer, remote command execution, sudo with approval guards, host key management, and multi-language UI.",
+  "releaseNotes": "Store releases jump from 0.7.8 straight to 0.7.10, so this update includes both lines. 0.7.9 brings the first phase of the adaptive SFTP transfer engine - a self-contained .dbxz (lzpack) archive mode with local-only compression and expansion, download prefetch plus bounded raw-write pipelining for better throughput on high-latency links, and a per-connection transfer performance model - along with the sudo PTY lane hang fix, multi-format SFTP previews (image, Office, PDF, media, spreadsheet, Markdown) streamed in 1 MiB slices with progress, cancel and resume, default-on Alt/Option word editing, and an issue sweep (#214, #216, #217, #218, #219, #220, #223, #224a, plus MCP SFTP errors carrying numeric status codes). 0.7.10 itself fixes saving MCP size limits (#241), turns the SFTP loading state into an overlay so switching directories or refreshing keeps the old rows and scroll position instead of jumping, and passes Ctrl+F through to the remote inside alternate-screen programs such as vim (local search stays on the configurable hotkey, default Ctrl+Shift+F). The scheduler/task-provider declaration remains withheld until the DBX host ships that capability.",
   "localizations": {
     "zh-CN": {
       "name": "终端",
